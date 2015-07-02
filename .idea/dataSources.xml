@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="474536255">
+  <component name="DataSourceManagerImpl" format="xml" hash="2526262846">
     <data-source source="LOCAL" name="MySQL - angularyii@localhost" uuid="ad37fe0d-95b4-4b46-9bbe-4b3a6d1f8213">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>

@@ -1,0 +1,39 @@
+<div>
+    <h1>Каталог книг: добавление Книги</h1>
+
+    <p>{{ message}}</p>
+    <form role="form" name="myForm">
+        <div class= "form-group" ng-class="{error: myForm.name.$invalid}">
+            <label> Название </label>
+            <div>
+                <input name="name" ng-model="book.name" type= "text" class= "form-control" placeholder="Название книги" required/>
+                <span ng-show="myForm.name.$dirty && myForm.name.$invalid" class="help-inline">Название обязательно</span>
+            </div>
+        </div>
+        <div class= "form-group">
+            <label> Описание </label>
+            <div>
+                <textarea name="description" ng-model="book.description" class= "form-control" placeholder= "Описание книги"></textarea>
+            </div>
+        </div>
+        <div class= "form-group" ng-class="{error: myForm.author.$invalid}">
+            <label> Режиссер </label>
+            <div>
+                <input name="author" ng-model="book.author" type= "text" class= "form-control" placeholder="Автор" required/>
+                <!--<span ng-show="myForm.director.$dirty && myForm.director.$invalid" class="help-inline">Режиссер обязателен</span>-->
+            </div>
+        </div>
+        <div class= "form-group" ng-class="{error: myForm.year.$invalid}">
+            <label> Год </label>
+            <div>
+                <input name="year" ng-model="book.year" type= "text" class= "form-control" placeholder="Год выпуска" required/>
+                <span ng-show="myForm.year.$dirty && myForm.year.$invalid" class="help-inline">Год обязателен</span>
+            </div>
+        </div>
+
+        <a href="#/book/index" class="btn btn-default">Cancel</a>
+        <button ng-click="createBook(book);"
+                ng-disabled="myForm.$invalid"
+                type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>

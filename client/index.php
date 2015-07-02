@@ -10,8 +10,11 @@
     <!-- Подключаем модули приложения -->
     <script src="app.js"></script>
     <script src="controllers/site.js"></script>
+    <script src="models/book.js"></script>
+    <script src="controllers/book.js"></script>
     <script src="models/film.js"></script>
     <script src="controllers/film.js"></script>
+
 </head>
 <body ng-controller="index">
     <nav class="navbar navbar-default">
@@ -21,6 +24,8 @@
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#/"><i class="glyphicon glyphicon-home"></i> Главная</a></li>
+
+                <li><a href="#/book/index"><i class="glyphicon glyphicon-book"></i> Каталог книг</a></li>
                 <li><a href="#/film/index"><i class="glyphicon glyphicon-film"></i> Каталог фильмов</a></li>
                 <li><a href="#/site/about"><i class="glyphicon glyphicon-tag"></i> О приложении</a></li>
                 <li><a href="#/site/contact"><i class="glyphicon glyphicon-envelope"></i> Обратная связь</a></li>
