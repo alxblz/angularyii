@@ -17,6 +17,7 @@
     <script src="models/film.js"></script>
     <script src="controllers/film.js"></script>
     <script src="controllers/user.js"></script>
+    <script src="models/user.js"></script>
 
 </head>
 <body ng-controller="index">

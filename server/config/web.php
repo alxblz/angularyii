@@ -37,7 +37,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => [
-                    'film', 'book'
+                    'film', 'book', 'user'
                 ]
                 ],
             ],
