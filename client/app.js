@@ -10,13 +10,15 @@ yii2AngApp = angular.module('yii2AngApp', [
     'ngRoute',
     'yii2AngApp.site',
     'yii2AngApp.book',
-    'yii2AngApp.film'
+    'yii2AngApp.film',
+    'yii2AngApp.user'
 
 ]);
 // рабочий модуль
 var yii2AngApp_site = angular.module('yii2AngApp.site', ['ngRoute']);
 var yii2AngApp_film = angular.module('yii2AngApp.film', ['ngRoute']);
 var yii2AngApp_book = angular.module('yii2AngApp.book', ['ngRoute']);
+var yii2AngApp_user = angular.module('yii2AngApp.user', ['ngRoute']);
 
 yii2AngApp.config(['$routeProvider', function($routeProvider) {
     // Маршрут по-умолчанию

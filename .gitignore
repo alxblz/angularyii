@@ -14,6 +14,7 @@ themes/classic/views/
 # IntelliJ project files
 .idea
 *.iml
+.idea/workspace.xml
 out
 gen
 

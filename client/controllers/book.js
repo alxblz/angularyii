@@ -29,7 +29,7 @@ yii2AngApp_book.config(['$routeProvider', function($routeProvider) {
         })
         .when('/book/deleteBook/:bookId', {
             templateUrl: 'views/book/index.html',
-            controller: 'deleteBook',
+            controller: 'deleteBook'
         })
         .otherwise({
             redirectTo: '/book/index'
