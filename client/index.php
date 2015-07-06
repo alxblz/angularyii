@@ -32,7 +32,7 @@
                 <li><a href="#/film/index"><i class="glyphicon glyphicon-film"></i> Каталог фильмов</a></li>
                 <li><a href="#/site/about"><i class="glyphicon glyphicon-tag"></i> О приложении</a></li>
                 <li><a href="#/site/contact"><i class="glyphicon glyphicon-envelope"></i> Обратная связь</a></li>
-                <li><a href="#/user/login"><i class="glyphicon glyphicon-envelope"></i> Login</a></li>
+                <li><a href="#/user/login"><i class="glyphicon glyphicon-user"></i> Login</a></li>
             </ul>
         </div>
     </nav>
